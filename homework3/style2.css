@@ -1,0 +1,65 @@
+/* Bài 2: */
+* {
+    margin: 0;
+    padding: 0;
+}
+.row {    
+    background: white;
+    display: flex;
+    flex-direction: row;
+    padding: 1px;
+    height: 100%;
+    align-items: center;
+}
+.layer {           
+    flex: 1;
+    display: flex;
+    flex-direction: column; 
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twenve {
+    background: red;
+    margin: 0px 1px;    
+    border-radius: 5px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.one {
+    flex-grow:1;
+}
+.two {
+    flex-grow:2;
+}
+.three {
+    flex-grow:3;
+}
+.four {
+    flex-grow:4;
+}
+.five {
+    flex-grow:5;
+}
+.six {
+    flex-grow:6;
+}
+.seven {
+    flex-grow:7;
+}
+.eight {
+    flex-grow:8;
+}
+.nine {
+    flex-grow:9;
+}
+.ten {
+    flex-grow:10;
+}
+.eleven {
+    flex-grow:11;
+}
+.twenve {
+    flex-grow:12;
+}
