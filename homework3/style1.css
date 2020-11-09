@@ -1,0 +1,120 @@
+/* bài 1: */
+* {
+    margin: 0;
+    padding: 0;
+}
+.conteiner {
+    width: 960px;
+}
+.up ,.down {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.left {
+    width: 620px;
+    height: 400px;
+    background-color: rgb(151, 147, 147);
+    opacity: 0.5;
+    text-align: center;
+    font-size: 45px;
+    line-height: 400px;
+    white-space: nowrap;
+}
+.right {
+    width: 300px;
+    height: auto;
+    float: left;
+}
+.text-small {
+    font-size: 13px;
+    color: grey;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+.img {
+    width: 300px;
+    height: 150px;
+    background-color: rgb(151, 147, 147);
+    text-align: center;
+    font-size: 30px;
+    opacity: 0.5;
+    line-height: 150px;
+    white-space: nowrap;
+}
+.text {
+    width: 300px;
+    height: auto;
+}
+.text-big {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.content {
+    font-size: 14px;
+    word-spacing: 1px;
+}
+/* Bài 2: */
+.row {    
+    background: white;
+    display: flex;
+    flex-direction: row;
+    padding: 1px;
+    height: 100%;
+    align-items: center;
+}
+.layer {           
+    flex: 1;
+    display: flex;
+    flex-direction: column; 
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twenve {
+    background: red;
+    margin: 0px 1px;    
+    border-radius: 5px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.one {
+    flex-grow:1;
+}
+.two {
+    flex-grow:2;
+}
+.three {
+    flex-grow:3;
+}
+.four {
+    flex-grow:4;
+}
+.five {
+    flex-grow:5;
+}
+.six {
+    flex-grow:6;
+}
+.seven {
+    flex-grow:7;
+}
+.eight {
+    flex-grow:8;
+}
+.nine {
+    flex-grow:9;
+}
+.ten {
+    flex-grow:10;
+}
+.eleven {
+    flex-grow:11;
+}
+.twenve {
+    flex-grow:12;
+}
